@@ -1,4 +1,5 @@
 import 'package:confessionsearchapp_flutter/project_resources/project_colors.dart';
+import 'package:confessionsearchapp_flutter/ui_components/search_result_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:confessionsearchapp_flutter/project_resources/appwidevariables.dart';
 
@@ -51,6 +52,7 @@ class _ConfessionSearchAppHomePage extends State<ConfessionSearchAppHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            SearchResultCardWidget()
           ],
         ),
 
