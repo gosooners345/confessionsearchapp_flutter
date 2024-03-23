@@ -29,7 +29,7 @@ colorSchemeSeed: AppColors.mainAppColor
     );
   }
 }
-
+//Old code
 class ConfessionSearchAppHomePage extends StatefulWidget {
   const ConfessionSearchAppHomePage({Key? key, required this.title}) : super(key: key);
 
